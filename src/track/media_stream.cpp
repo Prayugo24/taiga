@@ -39,6 +39,15 @@ static const std::vector<StreamData> stream_data{
     std::regex("animelab\\.com/player/"),
     std::regex("AnimeLab - (.+)"),
   },
+  // AnimeResistance
+  {
+    Stream::AnimeResistance,
+    taiga::kStream_AnimeResistance,
+    L"AnimeResistance",
+    L"https://www.animeresistance.com",
+    std::regex("animeresistance\\.com/.*-vostfr"),
+    std::regex("(.+) vostfr - AnimeResistance\\.com"),
+  },
   // Anime Digital Network
   {
     Stream::Adn,
