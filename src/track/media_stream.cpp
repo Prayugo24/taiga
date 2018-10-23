@@ -45,8 +45,8 @@ static const std::vector<StreamData> stream_data{
     taiga::kStream_AnimeResistance,
     L"AnimeResistance",
     L"https://www.animeresistance.com",
-    std::regex("animeresistance\\.com/.*-vostfr"),
-    std::regex("(.+) vostfr - AnimeResistance\\.com"),
+    std::regex("animeresistance\\.com/.*-vostfr$"),
+    std::regex("(.+?) vostfr - AnimeResistance\\.com"),
   },
   // Anime Digital Network
   {

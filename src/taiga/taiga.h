@@ -23,8 +23,8 @@
 
 #include "taiga/update.h"
 
-#define TAIGA_APP_NAME    L"Taiga"
-#define TAIGA_APP_TITLE   L"Taiga"
+#define TAIGA_APP_NAME    L"Taiga (Slaynash Edition)"
+#define TAIGA_APP_TITLE   L"Taiga (Slaynash Edition)"
 
 #define TAIGA_PORTABLE
 
