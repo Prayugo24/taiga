@@ -6,11 +6,7 @@ Visit the official [home page](https://taiga.moe) for more information. See the 
 
 ## Supported websites
 
-<<<<<<< HEAD
-From master branch:
-=======
 Original:
->>>>>>> 0cb4cdb583274a1163a77ccf9878f61033cf5670
 - AnimeLab
 - Anime Digital Network
 - Anime News Network
@@ -25,11 +21,7 @@ Original:
 - Yahoo View
 - YouTube
 
-<<<<<<< HEAD
-Slaynash's Edition:
-=======
 Unofficial:
->>>>>>> 0cb4cdb583274a1163a77ccf9878f61033cf5670
 - AnimeResistance
 - Gogoanime
 - MasterAni
