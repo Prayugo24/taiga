@@ -82,6 +82,7 @@ enum class Stream {
   Crunchyroll,
   Funimation,
   Hidive,
+  Masterani,
   Plex,
   Veoh,
   Viz,

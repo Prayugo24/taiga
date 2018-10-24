@@ -113,6 +113,7 @@ enum AppSettingName {
   kStream_Crunchyroll,
   kStream_Funimation,
   kStream_Hidive,
+  kStream_Masterani,
   kStream_Plex,
   kStream_Veoh,
   kStream_Viz,
