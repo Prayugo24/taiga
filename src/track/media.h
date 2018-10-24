@@ -87,6 +87,7 @@ enum class Stream {
   Plex,
   Veoh,
   Viz,
+  Voiranime,
   Vrv,
   Wakanim,
   Yahoo,

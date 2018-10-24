@@ -150,6 +150,15 @@ static const std::vector<StreamData> stream_data{
     std::regex("viz\\.com/watch/streaming/[^/]+-(?:episode-[0-9]+|movie)/"),
     std::regex("(.+) // VIZ"),
   },
+  // Voiranime
+  {
+    Stream::Voiranime,
+    taiga::kStream_Voiranime,
+    L"Voiranime",
+    L"http://voiranime.tv",
+    std::regex("voiranime\\.tv/.*-(?:vf|vostfr)/"),
+    std::regex("Regarder (.+) (?:VF|VOSTFR).*"),
+  },
   // VRV
   {
     Stream::Vrv,
