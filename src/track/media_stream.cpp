@@ -30,6 +30,15 @@ namespace track {
 namespace recognition {
 
 static const std::vector<StreamData> stream_data{
+  // Anime Digital Network
+  {
+    Stream::Adn,
+    taiga::kStream_Adn,
+    L"Anime Digital Network",
+    L"https://animedigitalnetwork.fr/video/",
+    std::regex("animedigitalnetwork.fr/video/[^/]+/[0-9]+"),
+    std::regex("(.+) - streaming -.* ADN"),
+  },
   // AnimeLab
   {
     Stream::Animelab,
@@ -48,14 +57,14 @@ static const std::vector<StreamData> stream_data{
     std::regex("animeresistance\\.com/.*-vostfr$"),
     std::regex("(.+?) vostfr - AnimeResistance\\.com"),
   },
-  // Anime Digital Network
+  // AnimeTwist
   {
-    Stream::Adn,
-    taiga::kStream_Adn,
-    L"Anime Digital Network",
-    L"https://animedigitalnetwork.fr/video/",
-    std::regex("animedigitalnetwork.fr/video/[^/]+/[0-9]+"),
-    std::regex("(.+) - streaming -.* ADN"),
+    Stream::AnimeTwist,
+    taiga::kStream_AnimeTwist,
+    L"AnimeTwist",
+    L"https://twist.moe",
+    std::regex("twist\\.moe/a/"),
+    std::regex("(.+?) - Anime Twist"),
   },
   // Anime News Network
   {
