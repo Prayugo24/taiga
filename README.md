@@ -7,8 +7,8 @@ Visit the official [home page](https://taiga.moe) for more information. See the 
 ## Supported websites
 
 Original:
-- AnimeLab
 - Anime Digital Network
+- AnimeLab
 - Anime News Network
 - Crunchyroll
 - Funimation
@@ -23,6 +23,7 @@ Original:
 
 Unofficial:
 - AnimeResistance
+- AnimeTwist
 - Gogoanime
 - MasterAni
 - VoirAnime

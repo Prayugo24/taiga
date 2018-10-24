@@ -39,6 +39,15 @@ static const std::vector<StreamData> stream_data{
     std::regex("animedigitalnetwork.fr/video/[^/]+/[0-9]+"),
     std::regex("(.+) - streaming -.* ADN"),
   },
+  // AnimeFLV
+  {
+    Stream::AnimeFLV,
+    taiga::kStream_AnimeFLV,
+    L"AnimeFLV",
+    L"https://animeflv.net",
+    std::regex("animeflv\\.net/ver/"),
+    std::regex("Ver (.+) Online.*AnimeFLV"),
+  },
   // AnimeLab
   {
     Stream::Animelab,
