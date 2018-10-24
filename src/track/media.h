@@ -81,6 +81,7 @@ enum class Stream {
   Ann,
   Crunchyroll,
   Funimation,
+  Gogoanime,
   Hidive,
   Masterani,
   Plex,

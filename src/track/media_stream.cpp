@@ -89,6 +89,15 @@ static const std::vector<StreamData> stream_data{
     std::regex("funimation\\.com/shows/[^/]+/[^/]+/"),
     std::regex("(?:Watch )?(.+) Anime.* (?:on|-) Funimation"),
   },
+  // Gogoanime
+  {
+    Stream::Gogoanime,
+    taiga::kStream_Gogoanime,
+    L"Gogoanime",
+    L"https://www3.gogoanime.in",
+    std::regex("gogoanime\\.in/(.*?)-episode-[0-9]+"),
+    std::regex("Watch (.+) at Gogoanime"),
+  },
   // HIDIVE
   {
     Stream::Hidive,
