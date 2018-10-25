@@ -22,6 +22,7 @@ Original:
 - YouTube
 
 Unofficial:
+- AniLinkz
 - AnimeFLV
 - AnimeResistance
 - AnimeTwist

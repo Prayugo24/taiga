@@ -106,6 +106,7 @@ enum AppSettingName {
   kSync_Notify_Recognized,
   kSync_Notify_NotRecognized,
   kSync_Notify_Format,
+  kStream_AniLinkz,
   kStream_Adn,
   kStream_AnimeFLV,
   kStream_Animelab,

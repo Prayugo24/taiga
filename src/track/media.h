@@ -75,6 +75,7 @@ private:
 
 enum class Stream {
   Unknown,
+  AniLinkz,
   Adn,
   AnimeFLV,
   Animelab,

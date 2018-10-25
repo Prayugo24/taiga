@@ -178,6 +178,7 @@ void AppSettings::InitializeMap() {
   INITKEY(kSync_Notify_Recognized, L"true", L"program/notifications/balloon/recognized");
   INITKEY(kSync_Notify_NotRecognized, L"true", L"program/notifications/balloon/notrecognized");
   INITKEY(kSync_Notify_Format, kDefaultFormatBalloon.c_str(), L"program/notifications/balloon/format");
+  INITKEY(kStream_AniLinkz, L"true", L"recognition/streaming/providers/anilinkz");
   INITKEY(kStream_Adn, L"true", L"recognition/streaming/providers/adn");
   INITKEY(kStream_AnimeFLV, L"true", L"recognition/streaming/providers/animeflv");
   INITKEY(kStream_Animelab, L"true", L"recognition/streaming/providers/animelab");

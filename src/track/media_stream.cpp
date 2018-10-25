@@ -30,6 +30,15 @@ namespace track {
 namespace recognition {
 
 static const std::vector<StreamData> stream_data{
+  // AniLinkz
+  {
+    Stream::AniLinkz,
+    taiga::kStream_AniLinkz,
+    L"AniLinkz",
+    L"https://anilinkz.to/",
+    std::regex("anilinkz.to/(.+)(?:episode-[0-9]+|ova|movie|special)"),
+    std::regex("(.+) - AniLinkz"),
+  },
   // Anime Digital Network
   {
     Stream::Adn,
