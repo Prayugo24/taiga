@@ -75,6 +75,15 @@ static const std::vector<StreamData> stream_data{
     std::regex("animeresistance\\.com/.*-vostfr$"),
     std::regex("(.+?) vostfr - AnimeResistance\\.com"),
   },
+  // Animes9
+  {
+    Stream::Animes9,
+    taiga::kStream_Animes9,
+    L"Animes9",
+    L"http://animes9.com",
+    std::regex("animes9\\.com/.*-vostfr$"),
+    std::regex("Animes (.+?) Vostfr - Animes9\\.com"),
+  },
   // AnimeTwist
   {
     Stream::AnimeTwist,

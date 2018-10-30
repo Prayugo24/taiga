@@ -25,6 +25,7 @@ Unofficial:
 - AniLinkz
 - AnimeFLV
 - AnimeResistance
+- Animes9
 - AnimeTwist
 - Gogoanime
 - MasterAni

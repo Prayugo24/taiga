@@ -111,6 +111,7 @@ enum AppSettingName {
   kStream_AnimeFLV,
   kStream_Animelab,
   kStream_AnimeResistance,
+  kStream_Animes9,
   kStream_AnimeTwist,
   kStream_Ann,
   kStream_Crunchyroll,

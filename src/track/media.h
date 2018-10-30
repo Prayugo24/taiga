@@ -80,6 +80,7 @@ enum class Stream {
   AnimeFLV,
   Animelab,
   AnimeResistance,
+  Animes9,
   AnimeTwist,
   Ann,
   Crunchyroll,

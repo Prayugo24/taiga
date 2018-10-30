@@ -183,6 +183,7 @@ void AppSettings::InitializeMap() {
   INITKEY(kStream_AnimeFLV, L"true", L"recognition/streaming/providers/animeflv");
   INITKEY(kStream_Animelab, L"true", L"recognition/streaming/providers/animelab");
   INITKEY(kStream_AnimeResistance, L"true", L"recognition/streaming/providers/animeresistance");
+  INITKEY(kStream_Animes9, L"true", L"recognition/streaming/providers/animes9");
   INITKEY(kStream_AnimeTwist, L"true", L"recognition/streaming/providers/animetwist");
   INITKEY(kStream_Ann, L"true", L"recognition/streaming/providers/ann");
   INITKEY(kStream_Crunchyroll, L"true", L"recognition/streaming/providers/crunchyroll");
